@@ -1,9 +1,48 @@
 .nav {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     background-color: #F9F9FA;
-    padding: 14px 38px;
+    padding: 18px 43px;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .nav__list {
     display: flex;
     justify-content: space-between;
+}
+
+.nav__link {
+    color: #2F363E;
+    position: relative;
+}
+
+.nav__chatnotification {
+    background-color: #FF6229;
+    width: 15px;
+    height: 15px;
+    border-radius: 7.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+    font-size: 3px;
+    position: absolute;
+    top: -3px;
+    left: 13px;
+}
+
+.nav__findnotification {
+    background-color: #FF6229;
+    width: 4px;
+    height: 4px;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -2px;
+    left: 22px;
 }
