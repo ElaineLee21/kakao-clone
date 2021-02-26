@@ -28,7 +28,7 @@
     border: none;
     padding: 17px 0px;
     font-size: 16px;
-    border-bottom: 1px solid rgba(0,0,0,0.2);
+    border-bottom: var(--main-border);
     transition: border-color .3s ease-in-out;
 }
 

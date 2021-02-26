@@ -13,4 +13,22 @@
 
 .header__icons span {
     margin-left: 17px;
+    
+}
+
+.header__icons {
+    position: relative;
+}
+
+.header-cog-notification {
+    background-color: #FF6229;
+    width: 4px;
+    height: 4px;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -5px;
+    right: -5px;
 }

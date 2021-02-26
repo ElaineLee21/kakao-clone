@@ -5,7 +5,7 @@
     background-color: #F9F9FA;
     padding: 18px 43px;
     box-sizing: border-box;
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-top: var(--main-border);
 }
 
 .nav__list {
@@ -34,7 +34,7 @@
     left: 13px;
 }
 
-.nav__findnotification {
+.nav__morenotification {
     background-color: #FF6229;
     width: 4px;
     height: 4px;
